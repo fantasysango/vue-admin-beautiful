@@ -1,5 +1,7 @@
 <template>
   <a-menu-item :key="routeChildren.path" @click="handleLink">
+    <!-- @click="handleLink" -->
+    <!-- @mousedown="handleLink" -->
     <span class="anticon">
       <vab-icon :icon="routeChildren.meta.icon"></vab-icon>
     </span>
